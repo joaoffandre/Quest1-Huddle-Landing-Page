@@ -1,0 +1,43 @@
+@media(max-width:900px){
+    .main .text-area .text-card h1{
+        font-size: 3.5rem;
+    }
+
+    .main .text-area .text-card p{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media(max-width:768px){
+    .header img{
+        max-width: 180px;
+    }
+
+    .main{
+        grid-template-columns: 1fr;
+        padding:1rem 3rem;
+        grid-template-areas: 
+        "illustration"
+        "text-area";
+    }
+
+    .main .illustration img{
+        max-width: 450px;
+    }
+
+    .main .text-area .text-card{
+        align-items: center;
+        text-align: center;
+        padding:3% 5%;
+    }
+
+    .footer{
+        justify-content: center;
+        padding-bottom:5rem;
+    }
+}
+
+@media(max-width:475px){
+    
+}
