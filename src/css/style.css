@@ -2,16 +2,111 @@
 
 html{
     font-size:62.5%;
+    font-family: var(--font-body);
+    font-weight: var(--font-weight-regular);
     color: white;
 }
 
 body{
     background: url(../images/bg-desktop.svg) no-repeat var(--violet);
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
 }
 
 .header{
-    padding: 3% 4%;
+    padding: 3% 5% 2%;
 }
 
+.main{
+    display: grid;
+    grid-template-columns: 0.55fr 0.45fr;
+    grid-template-areas: 
+    "illustration text-area";
+    padding:2rem 3rem 1rem;
+}
+
+.main .illustration{
+    grid-area:illustration;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .illustration img{
+    width: 91%;
+}
+
+.main .text-area{
+    grid-area: text-area;
+}
+
+.main .text-area .text-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding:8% 5%;
+}
+
+.main .text-area h1{
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-bold);
+    max-width: 60rem;
+}
+
+.main .text-area p{
+    font-size: 2rem;
+    max-width: 58rem;
+    margin-bottom: 1rem;
+}
+
+.main .text-area a{
+    font-size: 2.1rem;
+    font-family: var(--font-headings);
+    color: var(--violet);
+    background-color: #FFFFFF;
+    padding: 1.5rem 6rem;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 0.5px black;
+    transition: 0.3s ease-in-out;
+}
+
+.main .text-area a:hover{
+    background-color: var(--magenta);
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer .social-medias{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    gap:2rem;
+}
+
+.footer .social-medias .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 5px 0.4px black;
+    transition:0.3s ease-in-out;
+}
+
+.footer .social-medias .media:hover{
+    color:var(--magenta);
+    border-color: var(--magenta);
+}
