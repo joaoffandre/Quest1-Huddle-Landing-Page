@@ -10,6 +10,10 @@
 }
 
 @media(max-width:768px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+    }
     .header img{
         max-width: 180px;
     }
