@@ -27,11 +27,11 @@
 
 ### ⌨ Desktop
 
-[<img src="./src/images/Screenshots/Desktop.png">](/)
+[<img src="./src/images/Screenshots/Desktop.png">](https://joaoffandre.github.io/Quest1-Huddle-Landing-Page/)
 
 ### 📱 Mobile
 
-[<img src="./src/images/Screenshots/Mobile.png">](/)
+[<img src="./src/images/Screenshots/Mobile.png">](https://joaoffandre.github.io/Quest1-Huddle-Landing-Page/)
 
 ## 🖊 Author: João Francisco Fortes André
 
