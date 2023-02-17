@@ -21,8 +21,8 @@ body{
     display: grid;
     grid-template-columns: 0.55fr 0.45fr;
     grid-template-areas: 
-    "illustration text-area";
-    padding:2rem 3rem 1rem;
+    "illustration text-card";
+    padding:2rem 3rem;
 }
 
 .main .illustration{
@@ -36,11 +36,8 @@ body{
     width: 91%;
 }
 
-.main .text-area{
-    grid-area: text-area;
-}
-
-.main .text-area .text-card{
+.main .text-card{
+    grid-area: text-card;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +46,7 @@ body{
     padding:8% 5%;
 }
 
-.main .text-area h1{
+.main .text-card h1{
     font-size: 4.5rem;
     text-transform: capitalize;
     font-family: var(--font-headings);
@@ -57,14 +54,14 @@ body{
     max-width: 60rem;
 }
 
-.main .text-area p{
+.main .text-card p{
     font-size: 2rem;
     line-height: 3rem;
     max-width: 58rem;
     margin-bottom: 1rem;
 }
 
-.main .text-area a{
+.main .text-card a{
     font-size: 2.1rem;
     font-family: var(--font-headings);
     color: var(--violet);
@@ -75,7 +72,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-.main .text-area a:hover{
+.main .text-card a:hover{
     background-color: var(--magenta);
     color: #ffffff;
 }

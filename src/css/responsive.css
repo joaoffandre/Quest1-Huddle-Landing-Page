@@ -1,9 +1,9 @@
-@media(max-width:900px){
-    .main .text-area .text-card h1{
+@media(max-width:1023px){
+    .main .text-card h1{
         font-size: 3.5rem;
     }
 
-    .main .text-area .text-card p{
+    .main .text-card p{
         font-size: 1.8rem;
     }
 
@@ -19,17 +19,21 @@
         padding:1rem 3rem;
         grid-template-areas: 
         "illustration"
-        "text-area";
+        "text-card";
     }
 
     .main .illustration img{
         max-width: 450px;
     }
 
-    .main .text-area .text-card{
+    .main .text-card{
         align-items: center;
         text-align: center;
         padding:3% 5%;
+    }
+
+    .main .text-card a{
+        font-size: 1.8rem;
     }
 
     .footer{
@@ -39,5 +43,14 @@
 }
 
 @media(max-width:475px){
-    
+    .main{
+        gap:1rem;
+    }
+    .main .text-card h1{
+        font-size: 2.5rem;
+    }
+
+    .footer{
+        padding-top:2rem;
+    }
 }
