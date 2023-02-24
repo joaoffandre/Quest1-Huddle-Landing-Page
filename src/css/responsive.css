@@ -33,7 +33,7 @@
     .main .text-card{
         align-items: center;
         text-align: center;
-        padding:3% 5%;
+        padding:2% 5%;
     }
 
     .main .text-card a{
@@ -42,7 +42,6 @@
 
     .footer{
         justify-content: center;
-        padding-bottom:5rem;
     }
 }
 
@@ -56,5 +55,43 @@
 
     .footer{
         padding-top:2rem;
+    }
+}
+
+@media(max-height:800px) and (max-width:768px){
+    .main .text-card{
+        padding: 1rem;
+    }
+
+    .main .text-card h1{
+        font-size: 2rem;
+    }
+    .main .text-card p{
+        font-size: 1.3rem;
+    }
+
+    .main .text-card a{
+        font-size:1.5rem;
+    }
+
+    .header img{
+        max-width: 150px;
+    }
+
+    .main .illustration img{
+        max-width: 250px;
+    }
+
+    .footer{
+        padding:1rem;
+    }
+
+    .footer .social-medias{
+        font-size: 1.5rem;
+    }
+
+    .footer .social-medias .media{
+        width: 30px;
+        height: 30px;
     }
 }

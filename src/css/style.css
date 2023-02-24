@@ -11,10 +11,18 @@ body{
     background: url(../images/bg-desktop.svg) no-repeat var(--violet);
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 2000px;
+    max-width: 100%;
 }
 
 .header{
-    padding: 3% 5% 2%;
+    padding: 1% 5%;
 }
 
 .main{
@@ -22,7 +30,7 @@ body{
     grid-template-columns: 0.55fr 0.45fr;
     grid-template-areas: 
     "illustration text-card";
-    padding:2rem 3rem;
+    padding:1rem 3rem;
 }
 
 .main .illustration{
@@ -43,7 +51,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding:8% 5%;
+    padding: 5%;
 }
 
 .main .text-card h1{
